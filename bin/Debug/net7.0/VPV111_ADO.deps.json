@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "VPV111_ADO/1.0.0": {
+        "dependencies": {
+          "MySqlBuilder": "1.6.0",
+          "MySqlClient": "5.5.1"
+        },
+        "runtime": {
+          "VPV111_ADO.dll": {}
+        }
+      },
+      "MySql.Data/6.9.9": {
+        "runtime": {
+          "lib/net45/MySql.Data.dll": {
+            "assemblyVersion": "6.9.9.0",
+            "fileVersion": "6.9.9.0"
+          }
+        }
+      },
+      "MySqlBuilder/1.6.0": {
+        "dependencies": {
+          "MySql.Data": "6.9.9"
+        },
+        "runtime": {
+          "lib/net40/MySqlBuilder.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "MySqlClient/5.5.1": {
+        "dependencies": {
+          "MySqlConnector": "2.2.0",
+          "Savage.Data": "5.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Savage.Data.MySqlClient.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          }
+        }
+      },
+      "MySqlConnector/2.2.0": {
+        "runtime": {
+          "lib/net7.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "OptimizedDataReader/1.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Savage.OptimizedDataReader.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Savage.Data/5.5.1": {
+        "dependencies": {
+          "OptimizedDataReader": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Savage.Data.dll": {
+            "assemblyVersion": "5.5.1.0",
+            "fileVersion": "5.5.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VPV111_ADO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data/6.9.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rhpv2iJBqvvHU9gkhn/OZfhanQT/jZpfovyO9TEbJl5jLKMvABgxSkIPQbubrvR04M2/ZtdTeI9fC9WSkBe2wA==",
+      "path": "mysql.data/6.9.9",
+      "hashPath": "mysql.data.6.9.9.nupkg.sha512"
+    },
+    "MySqlBuilder/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WSiwPKGtqBLYKUxTZQqcyqwhVEkrX7PQR9thuDkK0pzxD8mW+2Rz6JfAPN0iepfQl46zM9m0YljDIl1V1UvgkQ==",
+      "path": "mysqlbuilder/1.6.0",
+      "hashPath": "mysqlbuilder.1.6.0.nupkg.sha512"
+    },
+    "MySqlClient/5.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F7v+LG3pxi178u5rmnvyFAO+hIYbUiq1dZnn1Xd8DGqO49bfGB94tRvFSBchaLLBQ7X1kJ3Mpu08gyIrh96gGg==",
+      "path": "mysqlclient/5.5.1",
+      "hashPath": "mysqlclient.5.5.1.nupkg.sha512"
+    },
+    "MySqlConnector/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RjJlqd22Vtuii7voNV8oyqhekDTmiMUW4legga9bFaJaT+hbyKbwY4/99FZRWkNryVW1BUCZ7GR/N8qhy5155A==",
+      "path": "mysqlconnector/2.2.0",
+      "hashPath": "mysqlconnector.2.2.0.nupkg.sha512"
+    },
+    "OptimizedDataReader/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qk3sXxpL5Ak2bMG4ei0DZOWe6X5U1lCRwGxsrD0IQ/l2hln8rXHaFyXsoDx+5owxrKKEQqLhZGT6ojQi3+bfug==",
+      "path": "optimizeddatareader/1.1.2",
+      "hashPath": "optimizeddatareader.1.1.2.nupkg.sha512"
+    },
+    "Savage.Data/5.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xQXly+iz4UdeJAbWZ0xAz+3NBSC5gBn0eI/Uf0rt3YYsN0GxA7b5logkG7ilvCGXU4tt9V/zrlTWQW+7OaO5nw==",
+      "path": "savage.data/5.5.1",
+      "hashPath": "savage.data.5.5.1.nupkg.sha512"
+    }
+  }
+}
